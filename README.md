@@ -1,4 +1,4 @@
 8gua-api
 ========
 
-Restful API dor 8gu or GC
+Restful API for 8gu or GC
