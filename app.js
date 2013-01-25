@@ -15,7 +15,7 @@ var hello = {
 var db_fetchData = function(y,m,d, request){
 	var createDay = y + '-' + m + '-' + d;
 
-	MongoClient.connect("mongodb://[ID]:[PASS]@linus.mongohq.com:10054/[DB name]", function(err, db) {
+	MongoClient.connect("mongodb://[ID]:[PASS]@linus.mongohq.com:10054/[DB]", function(err, db) {
 		if(err) { return console.dir(err); }
 		else
 		 	db.collection('collection name', function(err, collection) { 
